@@ -1,0 +1,503 @@
+/* Nav */
+html, body {
+	margin: 0;
+	padding: 0;
+  }
+
+	p {
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
+	.special-paragraph {
+		font-family: "Verdana", sans-serif;
+		font-size: 20px;
+		color: #3E3E3E;
+		font-weight: bold;
+		background-color: lightyellow;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+		text-align: center;
+		margin-top: 20px;
+
+		
+		
+			
+	  }
+	  .special-paragraph strong {
+		font-size: 50px; /* Adjust the font size for the strong element as desired */
+		color:brown;
+		/*font-family: 'Roboto', sans-serif;*/
+		
+		
+	  }
+	  
+	  .col-4,
+	  .col-5-large,
+	  .col-12-medium {
+		width: 33.33%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		border-radius: 50%;
+		margin-top: 60px;
+
+	  }
+	  .image-container,
+	  .content-container {
+		padding: 7px; /* Add padding to create separation */
+		
+	  }
+
+	  
+	  img {
+		width: 100%;
+		height: auto;
+		display: block;
+		object-fit: cover;
+			
+	  }
+	  /*create the entry technologies content div*/
+	  .headcontent {
+		position: relative;
+		z-index: 2;
+	  }
+	  .aln-center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+	  
+	  .col-4 {
+		width: 33.33%;
+		padding: 20px;
+		box-sizing: border-box;
+	  }
+	  
+	  .box {
+		background-color: rgb(245, 235, 235);
+		text-align: center;
+		padding: 20px;
+		border-radius: 5px;
+	  }
+	  
+	  .box h3 {
+		margin-top: 0;
+	  }
+	  
+	  .box p {
+		margin-bottom: 0;
+	  }
+
+	  .box.style1 {
+		position: relative;
+	  }
+	  /*add the images on the heading of the box*/
+	  .box.style1 .icon.featured {
+		position: absolute;
+		top: -20px; /* Adjust the distance between the image and the heading */
+		left: 50%;
+		transform: translateX(-50%);
+		width: 80px; /* Adjust the width of the image */
+		height: 80px; /* Adjust the height of the image */
+	  }
+	  
+	  .box.style1 h3 {
+		margin-top: 20px; /* Adjust the spacing between the image and the heading */
+		font-size: 24px; /* Adjust the font size of the heading */
+		color: #333; /* Adjust the color of the heading */
+	  }
+	
+	  .box.style1 p {
+		font-size: 20px; /* Adjust the font size of the paragraph */
+		color: #666; /* Adjust the color of the paragraph */
+	  }
+/*header  description for the "Here are a few technologies i have been working with recently"*/
+      header {
+		text-align: center; /* Center align the content */
+		margin-bottom: 5px; /* Add some bottom margin */
+	  }
+	  
+	  header p {
+		font-family: "Arial", sans-serif; /* Set the font family */
+		font-size: 30px; /* Set the font size */
+		font-weight: bold; /* Set the font weight */
+		color: #333; /* Set the text color */
+		font-family: 'Roboto', sans-serif;
+
+	  }
+	  
+/*project section*/
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap:0px;
+  }
+
+  .col-4 {
+	width: calc(33.33% - 20px); /* Adjust the width and gap as desired */
+  }
+  
+
+  .box {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+  }
+
+  .box h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.box p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #777;
+}
+  
+/*To remove the underline and change the color of the link in your HTML code*/
+.learn-more-link {
+	text-decoration: none; /* Remove the underline */
+	color: #110dd6; /* Change the color to red */
+
+  }
+/* Add this line to apply the Google Font */
+  .coming {
+	font-size: 40px;
+	color: blue;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif; 
+  }
+  }
+  /*contact section*/
+/* Styles for the contact form */
+#contact {
+	background-color: #2F2F2F;
+	padding: 20px;
+  }
+  
+  form {
+	margin-bottom: 30px;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  textarea {
+	height: 150px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+	background-color: #fff;
+	color: #000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+	background-color: #555;
+  }
+  
+  input[type="reset"].alt {
+	background-color: #ccc;
+	color: #000;
+	margin-left: 10px;
+  }
+  
+  input[type="reset"].alt:hover {
+	background-color: #eee;
+  }
+  
+  /* Additional styles for the wrapper */
+  .wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+  }
+  
+  .container {
+	margin: 0 auto;
+	max-width: 800px;
+  }
+  
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+  }
+  
+  .col-12 {
+	width: 100%;
+	padding: 0 10px;
+  }
+  
+  .col-6 {
+	width: 50%;
+	padding: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+	.col-6 {
+	  width: 100%;
+	}
+  }
+  
+  .actions {
+	display: flex;
+	justify-content: space-evenly;
+  }
+
+/* footer section*/
+footer {
+	background-color: #dfd2d2;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .footer-content {
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  
+  .footer-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .footer-links li {
+	display: inline-block;
+	margin: 0 10px;
+  }
+  
+  .footer-links li a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+	color: #555;
+  }
+/* end*/  
+
+footer {
+	margin-bottom: 0;
+  }
+/* section of skills on the technologies*/
+  .technologies {
+	color:#000 ; /* Replace with your desired font color */
+	/*font-weight: bold; /* Apply bold style to the text */
+  }
+  
+
+  /* end */
+
+
+
+
+
+
+
+
+  p {
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	color: #333;
+  }
+/*nav bar*/
+#nav {
+	background-color: #282828;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	cursor: default;
+	height: 3.5em;
+	line-height: 3.5em;
+}
+
+	#nav ul {
+		margin-bottom: 0;
+		list-style: none;
+		padding-left: 0;
+	}
+
+	#nav li {
+		display: inline-block;
+		padding-left: 0;
+	}
+
+	#nav a {
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+		position: relative;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		outline: 0;
+		font-weight: 600;
+		border-radius: 8px;
+		color: #fff;
+		height: 2.5em;
+		line-height: 2.5em;
+		padding: 0 1.25em;
+	}
+
+		#nav a:hover {
+			color: #fff !important;
+			background: #383838;
+		}
+
+		#nav a.active {
+			background: #484848;
+		}
+
+			#nav a.active:before {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: -0.6em;
+				left: 50%;
+				margin-left: -0.75em;
+				border-left: solid 0.75em transparent;
+				border-right: solid 0.75em transparent;
+				border-top: solid 0.6em #282828;
+			}
+
+			* Wrappers */
+
+			.wrapper {
+				background-image: url("images/bg.png");
+				box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+				padding: 8em 0 8em 0;
+				text-align: center;
+			}
+			
+				.wrapper.style1 {
+					background-image: none;
+					background-color: #fff;
+				}
+			
+				.wrapper.style2 {
+					background-color: #fafafa;
+					text-shadow: 1px 1px 0px #fff;
+				}
+			
+				.wrapper.style3 {
+					background-color: #f4f4f4;
+					text-shadow: 1px 1px 0px #fff;
+				}
+			
+				.wrapper.style4 {
+					background-color: #303030;
+					color: #999;
+					text-shadow: -1px -1px 0px #181818;
+				}
+			
+					.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+						color: #fff;
+					}
+			
+					.wrapper.style4 form input[type=text],
+					.wrapper.style4 form input[type=password],
+					.wrapper.style4 form select,
+					.wrapper.style4 form textarea {
+						border: none;
+						background: #FFFFFF;
+					}
+			
+						.wrapper.style4 form input[type=text]:focus,
+						.wrapper.style4 form input[type=password]:focus,
+						.wrapper.style4 form select:focus,
+						.wrapper.style4 form textarea:focus {
+							background: #252525;
+						}
+						/* Articles */
+
+body > article {
+	margin-bottom: 0;
+}
+
+#top {
+	padding: 10em 0 10em 0;
+	text-align: left;
+}
+
+	#top .image {
+		border-radius: 100%;
+		width: 20em;
+		height: 20em;
+		margin: 0;
+	}
+
+		#top .image img {
+			border-radius: 100%;
+		}
+
+	#top h1 {
+		margin-top: 0.35em;
+	}
+
+	#top p {
+		font-size: 1.5em;
+		line-height: 1.75em;
+	}
+
+		#top p a {
+			color: inherit;
+		}
+		/* Container */
+
+		.container {
+			margin: 0 auto;
+			max-width: calc(100% - 50px);
+			width: 1200px;
+		}
+
+/* Row */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-items: stretch;
+}
+.row > .col-4 {
+		width: 33.33333%;
+	}
+.row > .col-8 {
+		width: 66.66667%;
+	}
+
+
+
+
+
+
+	  
