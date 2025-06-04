@@ -4,183 +4,127 @@
 		<title>ALOUSIUS !!</title>
 		<link rel="stylesheet" href="css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		
-
 	</head>
-	<body class="">
+	<body>
 
-		<!-- Nav -->
-			<nav id="nav"
-				<ul class="container">
-					<li><a href="#home">HOME</a></li>
-					<li><a href="#skills">SKILLS</a></li>
-					<li><a href="#projects">PROJECTS</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
-			</nav>
+		<!-- Navigation -->
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#skills">SKILLS</a></li>
+				<li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
 
-		<!-- Home -->
-			<article id="home" class="wrapper style1">
-				<div class="container">
+		<!-- Home Section -->
+		<article id="home" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<img src="images/pic00.jpg" alt="Profile Picture" />
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<div class="content-container">
+							<p class="special-paragraph">
+								<strong>HI. I'M ALOUSIUS</strong><br><br>
+								Front-end developer with 8 months of experience. Passionate about learning and building accessible, responsive, and user-friendly web applications.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Skills Section -->
+		<article id="skills" class="wrapper style2">
+			<div class="container">
+				<header>
+					<h2>Skills I'm Learning</h2>
+				</header>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<img src="images/html.png.png" alt="HTML5 Icon" class="icon featured" />
+							<p>HTML5 for structuring content using semantic tags like &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;, etc.</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<img src="images/css3.png" alt="CSS3 Icon" class="icon featured" />
+							<p>CSS3 for styling layouts, colors, transitions, animations, and responsive designs.</p>
+						</section>
+					</div>
+					<div class="col-4 col-6-medium col-12-small">
+						<section class="box style1">
+							<img src="images/javascript.png" alt="JavaScript Icon" class="icon featured" />
+							<p>JavaScript for adding dynamic functionality, user interactions, and DOM manipulation.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Projects Section -->
+		<article id="projects" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Coming Projects</h2>
+				</header>
+				<div class="row">
+					<!-- Example Project Card -->
+					<div class="col-4 col-6-medium col-12-small">
+						<article class="box style2">
+							<a href="#" class="image featured"><img src="images/projects/pic01.jpg" alt="Event Tickets Project" /></a>
+							<h3>Event Tickets Project</h3>
+							<p>An online platform for event organizers to create listings and sell tickets efficiently.</p>
+							<a href="https://www.ticketsasa.com/events" target="_blank" class="learn-more-link">Learn More</a>
+						</article>
+					</div>
+					<!-- Add more project cards similarly -->
+				</div>
+			</div>
+		</article>
+
+		<!-- Contact Section -->
+		<article id="contact" class="wrapper style4">
+			<div class="container medium">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<form method="post" action="#">
 					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<img src="images/pic00.jpg" alt="" />
+						<div class="col-6 col-12-small">
+							<input type="text" name="name" placeholder="Your Name" />
 						</div>
-						
-						<div class="col-8 col-7-large col-12-medium">
-							<div class="content-container">
-												
-								<p class="special-paragraph"> <strong>HI. I'M ALOUSIUS</strong> <br><br>Alousius is a front-end developer with Eight month of experience in the field. Despite being relatively new to the industry.<br> Alousius has already demonstrated a strong passion for web development and a commitment to continuously learning and improving their skills.</p>
-								</div>				
+						<div class="col-6 col-12-small">
+							<input type="email" name="email" placeholder="Your Email" />
 						</div>
-					</div>
-				</div>
-			</article>
-
-		<!-- Work -->
-			<article id="skills" class="wrapper style2">
-				<div class="container">
-					<header>
-						
-						<p>I am still learning the following technologiess: </p>
-					</header>
-					<div class="aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<img src="images/html.png.png" alt="html Icon" class="icon featured" />
-								<span class="icon featured fa-comments"></span>
-								<br><br>
-								<p><font color="#0000">Use HTML5 to structure the content of your web pages. This involves organizing the different elements and sections of your website using HTML5 semantic tags such as &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;, etc. HTML5 also provides new input types, form validation attributes, and multimedia elements </font></p>
-							</section>
+						<div class="col-12">
+							<input type="text" name="subject" placeholder="Subject" />
+							<textarea name="message" placeholder="Message"></textarea>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<img src="images/css3.png" alt="css3 Icon" class="icon featured" />
-								<span class="icon solid featured fa-camera-retro"></span>
-								<br><br>
-								<p class="technologies"><font color="#0000">Apply CSS3 to style and enhance the visual appearance of your web pages. Use CSS3 to control the layout, typography, colors, and effects. CSS3 offers features like rounded corners, gradients, box shadows, animations, and transitions that can make your designs more visually appealing and engaging.</font> </p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">  
-								<img src="images/javascript.png" alt="JavaScript Icon" class="icon featured" /><br>
-								<span class="icon featured fa-thumbs-up"></span>
-								
-								<br>
-								<p class="technologies"><font color="#0000">Add interactivity and dynamic functionality to your web pages using JavaScript. JavaScript allows you to handle user interactions, manipulate HTML elements, modify content dynamically, validate forms, create animations, and much more.</font> </p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						
-					</footer>
-				</div>
-			</article>
-
-		<!-- Portfolio -->
-			<article id="projects" class="wrapper style3">
-				<div class="container">
-					<header>
-						<p class="coming">Coming Projects</p>
-						
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/projects/pic01.jpg" alt="Event management" /></a>
-								<h3><font color="#FF0000"><strong> Event Tickets project</strong></font></h3>
-								<p><font color="#0000">The system should allow event organizers to sell tickets online. This can be done by creating a ticket listing for each event, specifying the number of tickets available, and setting a price.</font></p>
-								<a href="https://www.ticketsasa.com/events" target="_blank" class="learn-more-link"><strong>LEARN MORE</strong></a>
-
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="Point-of-sale (POS) system" /></a>
-								<h3><font color="#FF0000"><strong>Restaurant Website </strong> </font></h3>
-								<p><font color="#0000">A restaurant website must use the right combination of colors to make food and drinks look more appealing to customers. You can also make the website interactive to increase customer engagement. For example, hovering over a meal’s image can display a menu card containing the price and availability..</font></p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><font color="#FF0000"><strong>Parallax Website</strong></font></h3>
-								<p><font color="#0000">Parallax scrolling is a widespread effect on modern websites where the background elements move at different speeds from foreground elements when scrolling. Despite its visually stunning appearance, a parallax website is one of the easiest projects for beginners.</font></p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<a><font color="#FF0000"><strong>Photography Site</strong></font></h3>
-								<p></p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><font color="#FF0000"><strong>Music Store Page</strong></font></h3>
-								<p></p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><font color="#FF0000"><strong>Procurement system</strong></font></h3>
-								<p></p>
-							</article>
-						</div>
-					</div>
-					
-				</div>
-			
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-				  <header>
-					<h2>Contact me</h2>
-				  </header>
-				  <div class="row">
-					<div class="col-12">
-					  <form method="post" action="#">
-						<div class="row">
-						  <div class="col-6 col-12-small">
-							<label for="name">Name:</label>
-							<input type="text" name="name" id="name" placeholder="Enter your name" />
-						  </div>
-						  <div class="col-6 col-12-small">
-							<label for="email">Email:</label>
-							<input type="text" name="email" id="email" placeholder="Enter your email" />
-						  </div>
-						  <div class="col-6 col-12-small">
-							<label for="subject">Subject:</label>
-							<input type="text" name="subject" id="subject" placeholder="Enter the subject" />
-						  </div>
-						  <div class="col-12">
-							<label for="message">Message:</label>
-							<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-						  </div>
-						  <div class="col-6 col-12-small">
+						<div class="col-12">
 							<ul class="actions">
-							  <li><input type="submit" value="Send Message" /></li><br>
-							  <li><input type="reset" value="Clear Form" class="alt"/></li>
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" value="Clear" class="alt" /></li>
 							</ul>
 						</div>
-					  </div>
-					</form>
-				  </div>
-				</div>
-			  </div>
-			</article>
-			<footer>
-				<div class="footer-content">
-				  <ul class="footer-links">
-					<li>&copy;K. ALOUSIUS. All rights reserved 2023.</li>
-					
-				  </ul>
-				</div>
-			  </footer>
-				
-		<!-- Scripts -->
-			
+					</div>
+				</form>
+			</div>
+		</article>
 
+		<!-- Footer -->
+		<footer>
+			<div class="footer-content">
+				<p>&copy; <span id="year"></span> K. ALOUSIUS. All rights reserved.</p>
+
+			</div>
+		</footer>
+		<!-- Script to Set Year -->
+		<script>
+			document.getElementById("year").textContent = new Date().getFullYear();
+		</script>
 	</body>
 </html>
